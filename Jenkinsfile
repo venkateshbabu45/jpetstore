@@ -25,7 +25,7 @@ pipeline {
 	{
 	steps
 	{
-         sh 'sudo scp -i /root/kathi.pem /var/lib/jenkins/jobs/petstore/targets/jpetstore.war ec2-user@52.66.243.142:/opt/tomcat/apache-tomcat-8.5.54/webapps'
+         sh 'sudo scp -i /root/kathi.pem /var/lib/jenkins/workspace/petstore/targets/jpetstore.war ec2-user@52.66.243.142:/opt/tomcat/apache-tomcat-8.5.54/webapps'
 
 	}
 	}	
